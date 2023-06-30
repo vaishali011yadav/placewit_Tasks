@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ABC Form</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>ABC Form</legend>
+        <marquee>
+            <strong>
+                Offer Ending Soon!!! Fill the form below &#128071
+            </strong>
+        </marquee>
+
+        <div class="details">
+            <ul>
+
+                <li>
+                    <label for="name"> <strong>Name:</strong> </label>
+                    <input type="text" id="name">
+                </li>
+
+                <br>
+
+                <li>
+                    <label for="fName"> <strong>Father's Name:</strong> </label>
+                    <input type="text" id="fName">
+                </li>
+
+                <br>
+
+                <li>
+                    <label for="pCode"> <strong>PIN Code:</strong> </label>
+                    <input type="text" id="pCode" minlength="6" maxlength="6">
+                </li>
+
+                <br>
+
+                <li>
+                    <label for="iDate"> <strong>Issue Date:</strong> </label>
+                    <input type="date" id="iDate" pattern="\d{2}-\d{2}-\d{4}" placeholder="MM-DD-YYYY" min="2023-01-01"
+                        max="2023-12-31">
+                </li>
+
+                <br>
+            </ul>
+
+            <hr>
+        </div>
+
+        <div class="products">
+            <h3>
+                <mark>
+                    Products
+                </mark>
+            </h3>
+
+            <details>
+                <summary>
+                    <span>Book</span>
+                    <meter min="0" max="100" value="70"></meter>
+                </summary>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, possimus.
+            </details>
+
+            <details open>
+                <summary>
+                    <span>Clothes</span>
+                    <meter min="0" max="100" value="50"></meter>
+                </summary>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatum fuga natus facere nihil! Amet
+                enim vel inventore expedita optio.
+            </details>
+
+            <details>
+                <summary>
+                    <span>Utensils</span>
+                    <meter min="0" max="100" value="90"></meter>
+                </summary>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, odio officia! Eligendi tempore
+                blanditiis commodi maiores nulla dignissimos, pariatur labore!
+            </details>
+        </div>
+
+        <hr>
+
+        <div class="item_description">
+            <div>
+                <label for="chooseItem"><i><strong>Choose your item:</strong></i></label>
+                <select id="chooseItem">
+                    <option>Book</option>
+                    <option>Cloth</option>
+                    <option>Utensils</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="choosebrand"><i><strong>Choose a brand:</strong></i></label>
+                <span>
+                    <input type="radio" id="abc" name="brand">
+                    <label for="abc"> <i>ABC</i></label>
+
+                    <input type="radio" id="def" name="brand">
+                    <label for="def"><i>DEF</i></label>
+
+                    <input type="radio" id="ghi" name="brand">
+                    <label for="ghi"><i>GHI</i></label>
+                </span>
+            </div>
+        </div>
+
+        <hr>
+
+        <center>
+            <div>
+                <mark> <i>Our trailer</i></mark>
+            </div>
+
+            <br><br>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JkaxUblCGz0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </center>
+
+        <hr>
+
+        <h3>
+            <mark><i>Our Clients</i></mark>
+        </h3>
+
+        <table bgcolor="#000000">
+            <tr bgcolor="#ffffff">
+                <th colspan="2"><i>Name</i></th>
+                <th><i>email</i></th>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+                <td><i>Amit</i></td>
+                <td><i>Mumbai</i></td>
+                <td><i>aa@gmail.com</i></td>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+                <td><i>Akash</i></td>
+                <td><i>Kolkata</i></td>
+                <td><i>ak@gmail.com</i></td>
+            </tr>
+
+            <tr bgcolor="#ffffff">
+                <td><i>Ayush</i></td>
+                <td><i>Kolkata</i></td>
+                <td><i>j@gmail.com</i></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p>
+            <i>
+                <pre>Our moto is to print a &lt;p&gt; tag here &#128513;</pre>
+            </i>
+        </p>
+
+        <button>Submit</button>
+
+    </fieldset>
+</body>
+
+</html>
