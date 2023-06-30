@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto+Mono&family=Sofia+Sans+Condensed&display=swap');
+
+body {
+    background-color: lightblue;
+    margin: 30px 30px 30px 30px;
+    background-image: url(https://media2.giphy.com/media/PbOaO2fedzQLm/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+marquee :hover {
+    background: #c9ade4;
+    font-size: larger;
+    text-shadow: coral 10px;
+}
+
+fieldset {
+    background-color: #8e91b9;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgba(25, 0, 0, 0), rgb(53, 76, 166));
+
+}
+
+fieldset legend {
+    background: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: underline;
+}
+
+table {
+    border: double;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5%;
+    border-color: #e0363e;
+}
+
+h3 {
+    font-size: 30px;
+
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+details {
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: burlywood 20px;
+}
+
+div {
+    margin: auto;
+    border: dashed;
+    padding: 20px;
+    /* border-spacing: auto; */
+}
+
+p {
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+ul {
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: " ";
+    display: inline-block;
+    height: 4px;
+    width: 4px;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsearch%2Flive%2520wallpaper%2F&psig=AOvVaw0rVwBXL95hqG22Vs9gh_g0&ust=1681299663640000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCND_sr3fof4CFQAAAAAdAAAAABAI);
+}
